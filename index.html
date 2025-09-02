@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Carter | Software Developer & Data Engineer</title>
+    <title>Faraz Pathan | Software Developer & Data Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -72,6 +72,32 @@
             border-color: #3b82f6;
             box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
         }
+        @media (max-width: 639px) {
+            /* Remove background and border for mobile, left align, underline on hover */
+            .mobile-link {
+                background: none !important;
+                border: none !important;
+                text-align: left !important;
+                color: #60a5fa !important; /* blue-400 */
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                width: 100% !important;
+                border-radius: 0 !important;
+                font-size: 1rem !important;
+                margin-bottom: 0.25rem;
+            }
+            .mobile-link:hover {
+                text-decoration: underline !important;
+                text-underline-offset: 4px !important;
+                color: #38bdf8 !important; /* blue-300 */
+            }
+            .mobile-link:last-child {
+                color: #a78bfa !important; /* purple-400 */
+            }
+            .mobile-link:last-child:hover {
+                color: #c4b5fd !important; /* purple-300 */
+            }
+        }
     </style>
 </head>
 <body class="min-h-screen">
@@ -82,7 +108,7 @@
         <div class="max-w-7xl mx-auto px-2 sm:px-4">
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0">
-                    <span class="text-lg sm:text-xl font-bold gradient-text">Alex Carter</span>
+                    <span class="text-lg sm:text-xl font-bold gradient-text">Faraz Pathan</span>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-4 sm:ml-10 flex items-baseline space-x-2 sm:space-x-4">
@@ -121,14 +147,13 @@
             <div class="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
                 <div class="text-center lg:text-left w-full" data-aos="fade-right">
                     <div class="mb-6">
-                        <span class="inline-block px-4 py-2 bg-slate-800/50 rounded-full text-blue-400 text-sm font-medium mb-4 animate-pulse">Software Engineer</span>
                         <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">
-                            Hi, I'm <span class="gradient-text">Alex Carter</span>
+                            Hi, I'm <span class="gradient-text">Faraz Pathan</span>
                         </h1>
                         <h2 class="text-lg sm:text-xl md:text-3xl font-medium text-slate-300 mb-6">
                             Building <span class="typing-text text-blue-400"></span>
                         </h2>
-                        <p class="max-w-md mx-auto lg:mx-0 text-base sm:text-lg text-slate-400 mb-8">
+                        <p class="max-w-xs sm:max-w-md mx-auto lg:mx-0 text-xl sm:text-lg text-slate-400 mb-8">
                             I create scalable applications and data solutions that transform complex challenges into elegant digital experiences.
                         </p>
                         <div class="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center lg:justify-start w-full">
@@ -252,9 +277,9 @@
                     </div>
                     <div class="space-y-2">
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Python</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">JavaScript</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">SQL</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Java</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">SQL</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">JavaScript</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Go</span>
                     </div>
                 </div>
@@ -272,7 +297,7 @@
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Spark</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Kafka</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">PostgreSQL</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">BigQuery</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Redshift</span>
                     </div>
                 </div>
                 
@@ -287,9 +312,9 @@
                     <div class="space-y-2">
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">AWS</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Docker</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Kubernetes</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">OCI</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Terraform</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">CI/CD</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Github Actions</span>
                     </div>
                 </div>
                 
@@ -303,8 +328,8 @@
                     </div>
                     <div class="space-y-2">
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Node.js</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">FastAPI</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">GraphQL</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Spring Boot</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Django</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Redis</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">MongoDB</span>
                     </div>
@@ -323,7 +348,7 @@
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Next.js</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Tailwind CSS</span>
                         <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">TypeScript</span>
-                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">D3.js</span>
+                        <span class="skill-pill block px-3 py-2 bg-slate-700 rounded-md text-sm">Framer-motion</span>
                     </div>
                 </div>
             </div>
@@ -346,7 +371,7 @@
                         </div>
                         <div>
                             <h4 class="font-medium text-slate-300">Email</h4>
-                            <a href="mailto:alex@example.com" class="text-blue-400 hover:text-blue-300">alex@example.com</a>
+                            <a href="mailto:farazpf12@gmail.com" class="text-blue-400 hover:text-blue-300">farazpf12@gmail.com</a>
                         </div>
                     </div>
                     <div class="flex items-start">
@@ -355,7 +380,7 @@
                         </div>
                         <div>
                             <h4 class="font-medium text-slate-300">LinkedIn</h4>
-                            <a href="https://linkedin.com/in/alexcarter" target="_blank" class="text-blue-400 hover:text-blue-300">linkedin.com/in/alexcarter</a>
+                            <a href="https://https://www.linkedin.com/in/faraz-pathan-62a239267/" target="_blank" class="text-blue-400 hover:text-blue-300">https://www.linkedin.com/in/faraz-pathan</a>
                         </div>
                     </div>
                     <div class="flex items-start">
@@ -364,7 +389,7 @@
                         </div>
                         <div>
                             <h4 class="font-medium text-slate-300">GitHub</h4>
-                            <a href="https://github.com/alexcarter" target="_blank" class="text-blue-400 hover:text-blue-300">github.com/alexcarter</a>
+                            <a href="https://github.com/faraz-wq" target="_blank" class="text-blue-400 hover:text-blue-300">github.com/faraz-wq</a>
                         </div>
                     </div>
                 </div>
@@ -377,7 +402,7 @@
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0">
-                    <span class="text-lg sm:text-xl font-bold gradient-text">Alex Carter</span>
+                    <span class="text-lg sm:text-xl font-bold gradient-text">Faraz Pathan</span>
                 </div>
                 <div class="flex space-x-4 sm:space-x-6">
                     <a href="#" class="text-slate-400 hover:text-white transition">
@@ -395,7 +420,7 @@
                 </div>
             </div>
             <div class="mt-6 sm:mt-8 text-center text-xs sm:text-sm text-slate-500">
-                <p>© 2023 Alex Carter. All rights reserved.</p>
+                <p>© 2023 Faraz Pathan. All rights reserved.</p>
             </div>
         </div>
     </footer>
